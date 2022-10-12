@@ -1,6 +1,6 @@
 # ProductLab_tests
 
-* ***`yuchuksin`***  - тестовое задание для компании [ProductLab](https://productlab.by/).*
+* ***`ProductLab_tests`***  - тестовое задание для компании [ProductLab](https://productlab.by/).*
 
 ## Задание
 <div>
