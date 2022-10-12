@@ -1,5 +1,6 @@
-from main import check_relation
 import pytest
+
+from main import check_relation
 
 net = (
     ("Ваня", "Лёша"), ("Лёша", "Катя"),
@@ -8,6 +9,7 @@ net = (
     ("Стёпа", "Оля"), ("Оля", "Настя"),
     ("Настя", "Дима"), ("Дима", "Маша")
 )
+
 
 @pytest.mark.one
 def test_relation():
