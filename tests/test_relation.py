@@ -1,5 +1,3 @@
-import pytest
-
 from main import check_relation
 
 net = (
@@ -11,7 +9,6 @@ net = (
 )
 
 
-@pytest.mark.one
 def test_relation():
     assert check_relation(net, "Петя", "Стёпа") is True
     assert check_relation(net, "Маша", "Петя") is True
