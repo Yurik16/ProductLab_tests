@@ -16,18 +16,18 @@ if __name__ == '__main__':
         ("Настя", "Дима"), ("Дима", "Маша")
     )
 
-    # assert check_relation(net, "Петя", "Стёпа") is True
-    # assert check_relation(net, "Маша", "Петя") is True
-    # assert check_relation(net, "Ваня", "Дима") is False
-    # assert check_relation(net, "Лёша", "Настя") is False
-    # assert check_relation(net, "Стёпа", "Маша") is True
-    # assert check_relation(net, "Лена", "Маша") is False
-    # assert check_relation(net, "Вова", "Лена") is True
+    assert check_relation(net, "Петя", "Стёпа") is True
+    assert check_relation(net, "Маша", "Петя") is True
+    assert check_relation(net, "Ваня", "Дима") is False
+    assert check_relation(net, "Лёша", "Настя") is False
+    assert check_relation(net, "Стёпа", "Маша") is True
+    assert check_relation(net, "Лена", "Маша") is False
+    assert check_relation(net, "Вова", "Лена") is True
 
-    print(check_relation(net, "Петя", "Стёпа"))
-    print(check_relation(net, "Маша", "Петя"))
-    print(check_relation(net, "Ваня", "Дима"))
-    print(check_relation(net, "Лёша", "Настя"))
-    print(check_relation(net, "Стёпа", "Маша"))
-    print(check_relation(net, "Лена", "Маша"))
-    print(check_relation(net, "Вова", "Лена"))
+    # print(check_relation(net, "Петя", "Стёпа"))
+    # print(check_relation(net, "Маша", "Петя"))
+    # print(check_relation(net, "Ваня", "Дима"))
+    # print(check_relation(net, "Лёша", "Настя"))
+    # print(check_relation(net, "Стёпа", "Маша"))
+    # print(check_relation(net, "Лена", "Маша"))
+    # print(check_relation(net, "Вова", "Лена"))
